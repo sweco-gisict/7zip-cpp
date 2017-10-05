@@ -1,8 +1,8 @@
 # 7zip-cpp
-Fork of SevenZip++ for VS2015
+Fork of SevenZip++ for VS2010. It also compiles with VS2017.
+Other Visual Studio version in between probably work as well.
 
-From:
-[http://bitbucket.org/cmcnab/sevenzip/wiki/Home](http://bitbucket.org/cmcnab/sevenzip/wiki/Home)
+From: [https://github.com/getnamo/7zip-cpp](https://github.com/getnamo/7zip-cpp) which forked it from: [http://bitbucket.org/cmcnab/sevenzip/wiki/Home](http://bitbucket.org/cmcnab/sevenzip/wiki/Home)
 
 
 This is a C++ wrapper for accessing the 7-zip COM-like API in 7z.dll and 7za.dll. This code is heavily based off of the Client7z sample found in the [LZMA SDK](http://www.7-zip.org/sdk.html).
