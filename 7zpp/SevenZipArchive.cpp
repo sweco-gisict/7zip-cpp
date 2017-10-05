@@ -6,11 +6,15 @@
 namespace SevenZip
 {
 	SevenZipArchive::SevenZipArchive(const SevenZipLibrary& library, const TString& archivePath)
-		: m_library(library),
-		m_archivePath(archivePath),
-		// The default compression type will be unknown
-		m_compressionFormat(CompressionFormat::Unknown),
-		m_compressionLevel(CompressionLevel::None)
+		: m_library(library)
+    , m_ReadMetadata(false)
+    , m_OverrideCompressionFormat(false)
+    , m_archivePath(archivePath)
+    , m_compressionFormat(CompressionFormat::Unknown)
+    , m_compressionLevel(CompressionLevel::None)
+    , m_numberofitems(0)
+    , m_itemnames()
+    , m_origsizes()
 	{
 	}
 
